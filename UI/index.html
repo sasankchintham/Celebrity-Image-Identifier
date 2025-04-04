@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrity Face Recognition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Celebrity Face Recognition</h1>
+
+    <!-- Display Predefined Celebrity Images -->
+    <div class="celebrity-grid">
+        <div class="celebrity">
+            <img src="elon_musk.jpg" alt="Elon Musk">
+            <p>Elon Musk</p>
+        </div>
+        <div class="celebrity">
+            <img src="cristiano_ronaldo.jpg" alt="Cristiano Ronaldo">
+            <p>Cristiano Ronaldo</p>
+        </div>
+        <div class="celebrity">
+            <img src="narendra_modi.jpg" alt="Narendra Modi">
+            <p>Narendra Modi</p>
+        </div>
+        <div class="celebrity">
+            <img src="taylor_swift.png" alt="Taylor Swift">
+            <p>Taylor Swift</p>
+        </div>
+        <div class="celebrity">
+            <img src="virat_kohli.jpg" alt="Virat Kohli">
+            <p>Virat Kohli</p>
+        </div>
+    </div>
+
+    <!-- Drag & Drop Image Upload -->
+    <div id="drop-area">
+        <h3>Drag & Drop an Image or Click to Upload</h3>
+        <input type="file" id="file-input" accept="image/*">
+        <img id="preview" alt="Uploaded Image Preview" style="display: none;">
+        <button id="classify-btn">Classify</button>
+    </div>
+
+    <!-- Result Display -->
+    <h2 id="result"></h2>
+
+    <!-- Script file -->
+    <script src="app.js"></script>
+</body>
+</html>

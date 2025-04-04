@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.celebrity-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.celebrity {
+    width: 150px;
+}
+
+.celebrity img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+#drop-area {
+    border: 2px dashed #aaa;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+    margin: auto;
+    max-width: 400px;
+    transition: border-color 0.3s ease;
+}
+
+#drop-area:hover {
+    border-color: #007bff;
+}
+
+#file-input {
+    margin-top: 10px;
+}
+
+#preview {
+    margin-top: 15px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#classify-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+#classify-btn:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    color: green;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .celebrity-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
