@@ -1,4 +1,6 @@
 
+https://github.com/user-attachments/assets/cc93d6c2-53e1-445a-82ee-59daa7d1e4e5
+
 In this data science and machine learning project, we classify sports personalities. We restrict classification to only 5 people,
 1) elon musk
 2) cristiano ronaldo
@@ -23,6 +25,6 @@ Technologies used in this project,
 7. HTML/CSS/Javascript for UI
 
 
-https://github.com/user-attachments/assets/cc93d6c2-53e1-445a-82ee-59daa7d1e4e5
+
 
 
