@@ -1,4 +1,3 @@
-![](ui_snapshot.jpg)
 
 In this data science and machine learning project, we classify sports personalities. We restrict classification to only 5 people,
 1) elon musk
@@ -24,6 +23,6 @@ Technologies used in this project,
 7. HTML/CSS/Javascript for UI
 
 
-## 🎥 Project Demo
-[📥 Download and Watch the Video](videos/demo.mp4)
+https://github.com/user-attachments/assets/cc93d6c2-53e1-445a-82ee-59daa7d1e4e5
+
 
